@@ -1,0 +1,11 @@
+{
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "thecoder08",
+  "description": "A simple-syntax yet powerful web server developed by thecoder08.",
+  "license": "MIT",
+  "main": "main.js",
+  "name": "@thecoder08/http",
+  "version": "1.0.1"
+}
