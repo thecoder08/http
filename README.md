@@ -10,11 +10,11 @@ to install HTTP.
 ## Require
 Require with this code for node.js:
 ```javascript
-var http = require('thecoder08-http');
+var http = require('@thecoder08/http');
 ```
 Require with this code for the browser:
 ```html
-<script src="node_modules/thecoder08-http/browser.js"></script>
+<script src="node_modules/@thecoder08/http/browser.js"></script>
 ```
 ## Syntax
 ### Node.js
