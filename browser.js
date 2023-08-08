@@ -3,7 +3,9 @@ function request(path, callback) {
   xhr.onload = function() {
     callback(this.responseText);
   }
-  xhr.onerror = callback();
+  xhr.onerror = function() {
+    callback();
+  }
   xhr.open('GET', path, true);
   xhr.send();
 }
